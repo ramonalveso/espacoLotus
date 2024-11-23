@@ -13,7 +13,7 @@
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
+  --bs-purple: #620886;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
@@ -39,7 +39,7 @@
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc800;
-  --bs-danger: #a020f0;
+  --bs-danger: #680886;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 255, 200, 0;
@@ -47,7 +47,7 @@
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 200, 0;
-  --bs-danger-rgb: 160, 32, 240;
+  --bs-danger-rgb: 104, 8, 134;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #ffc800;
-  --bs-link-hover-color: #cca000;
+  --bs-link-color: #189450;
+  --bs-link-hover-color: #189450;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff4cc;
 }
@@ -2846,10 +2846,10 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #a020f0;
-  --bs-btn-border-color: #7710b8;
+  --bs-btn-bg: #680886;
+  --bs-btn-border-color: #680886;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #93e60e;
+  --bs-btn-hover-bg: #189450;
   --bs-btn-hover-border-color: #8ad80ee0;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
@@ -2968,7 +2968,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #212529;
   --bs-btn-border-color: #212529;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #a020f0;
+  --bs-btn-hover-bg: #680886;
   --bs-btn-hover-border-color: #373b3e;
   --bs-btn-focus-shadow-rgb: 66, 70, 73;
   --bs-btn-active-color: #fff;
@@ -3502,7 +3502,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-active-color: #fff;
   --bs-dropdown-link-active-bg: #ffc800;
   --bs-dropdown-link-disabled-color: #adb5bd;
-  --bs-dropdown-header-color: #a020f0;
+  --bs-dropdown-header-color: #c262e8;
 }
 
 .btn-group,
@@ -10879,7 +10879,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #a020f0;
+  background-color: #c262e8;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10905,7 +10905,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #93e60e;
+  color: #189450;
 }
 
 @media (min-width: 992px) {
@@ -10927,7 +10927,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #A020F0;
+    background-color: #c262e8;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10984,7 +10984,7 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
@@ -11005,7 +11005,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(160, 32, 240, 0.7); 
+  background: rgba(104, 8, 134, 0.7); 
   align-items: center;
   justify-content: center;
   opacity: 0;
